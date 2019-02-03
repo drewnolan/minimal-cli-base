@@ -1,15 +1,14 @@
 {
-  "name": "fun",
-  "version": "0.0.0",
-  "description": "code fun",
+  "name": "minimal-cli-base",
+  "version": "0.0.1",
+  "description": "Minimal CLI utility boilerplate",
   "preferGlobal": true,
   "bin": {
-    "fun": "index.js"
+    "minimal-cli-base": "index.js"
   },
-  "repository": "https://github.com/drewnolan/fun",
+  "repository": "https://github.com/drewnolan/minimal-cli-base",
   "author": "Drew Nolan",
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "esm": "^3.2.0",
     "minimist": "^1.2.0"
