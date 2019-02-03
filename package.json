@@ -1,0 +1,10 @@
+{
+  "name": "fun",
+  "version": "0.0.0",
+  "description": "code fun",
+  "main": "index.js",
+  "repository": "https://github.com/drewnolan/fun",
+  "author": "Drew Nolan",
+  "license": "MIT",
+  "private": true
+}
