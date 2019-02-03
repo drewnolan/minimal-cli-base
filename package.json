@@ -2,9 +2,16 @@
   "name": "fun",
   "version": "0.0.0",
   "description": "code fun",
-  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "fun": "index.js"
+  },
   "repository": "https://github.com/drewnolan/fun",
   "author": "Drew Nolan",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "esm": "^3.2.0",
+    "minimist": "^1.2.0"
+  }
 }
